@@ -6,6 +6,7 @@ font-family: 'Roboto', sans-serif;
   height: 100%;
   margin: 0px;
   min-width: 90em;
+  max-width:95em;
 }
 /* Navigation */
 .header {
