@@ -1,5 +1,5 @@
 body {
-font-family: 'Roboto', sans-serif;	
+  font-family: 'Roboto', sans-serif;	
   background-color: black;
 	font-style: normal;
 	font-weight: 400;
@@ -7,6 +7,7 @@ font-family: 'Roboto', sans-serif;
   margin: 0px;
   min-width: 90em;
   max-width:95em;
+  margin-right:0px;
 }
 /* Navigation */
 .header {
@@ -70,6 +71,29 @@ h4{
 i{
   margin-left:10px;
 }
+
+/* Login Buttons */
+.navButton{
+  background-color:#454545;
+  color:white;
+  font-size: 14px;
+  border: 1px solid #454545;
+  border-radius: 5px;
+}
+.farRight{
+  float:right;
+  margin-right:1em;
+}
+#search{
+  color:grey;
+  font-size: 18px;
+  padding:5px;
+  margin-right:7px;
+}
+#greenChevron{
+  color:#23d771;
+}
+
 /* Main container*/
 .main{
   margin-top: -5em;
@@ -124,7 +148,7 @@ p{
 /* Image */
 #weird{
   height: 30em;
-  margin-right:0em;
+  margin-right:-1px;
   position: static;
   
 }
